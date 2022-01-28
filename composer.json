@@ -1,0 +1,22 @@
+{
+    "name": "digitalmilk/module-categorybottomcms",
+    "description": "Display another cms block at the bottom of the category page",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Martino Massalini",
+            "email": "massalinimartino@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DigitalMilk\\CategoryBottomCms\\": ""
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+<fieldset name="content">
+    <field name="cms_bottom" sortOrder="60" formElement="select">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="label" xsi:type="string" translate="true">CMS Block for Bottom Page</item>
+                <item name="fieldGroup" xsi:type="string">bool</item>
+                <item name="dataType" xsi:type="string">number</item>
+                <item name="formElement" xsi:type="string">select</item>
+                <item name="value" xsi:type="string">0</item>
+                <item name="dataScope" xsi:type="string">cms_bottom</item>
+            </item>
+
+            <item name="options" xsi:type="object">DigitalMilk\CategoryBottomCms\Model\Rule\CmsBlockOptionsProvider</item>
+        </argument>
+    </field>
+</fieldset>
+</form>
